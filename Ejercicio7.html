@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejersicio 7</title>
+</head>
+<body>
+    <h1>Ejersicio 7</h1>
+    <ul>A donde quiere llamar? (costo de llamada por min)
+        <li>(1)-0,15$-Estados Unidos</li>
+        <li>(2)-0,14$-Canadá</li>
+        <li>(3)-0,25$-España</li>
+        <li>(4)-0,05$-Colombia</li>
+        <li>(5)-0,10$-Venezuela</li>
+        <li>(6)-0,11$-México</li>
+        <li>(7)-0,12$-Argentina</li>
+        <li>(8)-0,08$-Panamá</li>
+
+    </ul>
+    <script>
+num = prompt("Ingrese el codigo deseado");
+cod=parseFloat(num);
+tiempo = prompt("Cuantos minutos durará la llamada?");
+min=parseFloat(tiempo);
+if (cod==1) {
+    costo=0.15 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==2) {
+    costo=0.14 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==3) 
+    {    costo=0.25 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==4) 
+    {    costo=0.05 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==5) 
+    {    costo=0.10 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==6) {
+    costo=0.11 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==7) {
+    costo=0.12 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {if (cod==8) {
+    costo=0.08 * min;
+    document.write("El costo de su llamada es: ",costo,"$ "); 
+    
+} else {
+    alert("Escriba un codigo valido")
+    
+}
+    
+}
+    
+}
+    
+}
+    
+}
+    
+}
+    
+}
+    
+}
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

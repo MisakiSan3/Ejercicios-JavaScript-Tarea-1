@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejersicio20</title>
+</head>
+<h1>Ejersicio20</h1>
+<body>
+    
+</body>
+<script>
+cadena=prompt("Escriba un numero de 3 cifras");
+if (cadena.length=="3") {
+    n1=cadena.substr(0,1);
+    
+    n2=cadena.substr(1,1);
+    
+    n3=cadena.substr(2,1);
+    
+    if (n1==n3) {
+        alert("Es un numero palindromo");
+        document.write(cadena," ,Es un numero palindromo");
+    } else {
+        alert("No es un numero palindromo");
+    document.write(cadena," ,No es un numero palindromo");
+    }
+}   else {
+    alert("Numero invalido");  
+    
+}
+
+
+</script>
+</html>

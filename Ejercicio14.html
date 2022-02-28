@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejersicio 14</title>
+</head>
+<body>
+    <h1>Ejersicio 14</h1>
+    <script>
+paga = prompt("Ingrese su sueldo");
+
+cat  = prompt("Elija su categoria: A B C D");
+
+    if (cat=="A") {
+        por= (parseFloat(paga) * 10) / 100 ;
+        mejora= parseFloat (paga) + parseFloat (por);
+        document.write("Felicidades su sueldo actual es= ",mejora);
+
+    } else {if (cat=="B") {
+        por= (parseFloat(paga) * 20) / 100 ;
+        mejora= parseFloat (paga) + parseFloat (por);
+        document.write("Felicidades su sueldo actual es= ",mejora);
+    } else {if (cat=="C") {
+        por= (parseFloat(paga) * 30) / 100 ;
+        mejora= parseFloat (paga) + parseFloat (por);
+        document.write("Felicidades su sueldo actual es= ",mejora);
+
+    } else {if (cat=="D") {
+        por= (parseFloat(paga) * 40) / 100 ;
+        mejora= parseFloat (paga) + parseFloat (por);
+        document.write("Felicidades su sueldo actual es= ",mejora);
+    } else{
+        alert("Escriba un sueldo o una categoria correcta")
+    }
+    }  
+    }  
+    }
+    </script>
+
+    
+</body>
+</html>
