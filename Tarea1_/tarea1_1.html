@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2-Ejersicio 1</title>
+</head>
+<body>
+ <h1>Unidad 2-Ejersicio 1</h1>   
+</body>
+<script>
+    
+can=prompt("Ingrese la cantidad de producto");
+cant=parseFloat(can);
+precio=prompt("Ingrese el precio del producto");
+prcio=parseFloat(precio);
+
+preciot= precio * cant;
+
+if (cant<=100) {
+    descuento= (2 * preciot) / 100
+    total= preciot - descuento;
+    document.write("su total a pagar por: "+ cant + " ,unidades es: " + total + "$")
+
+} else {if (cant>100 && cant <= 250) {
+
+    descuento= (5 * preciot) / 100;
+    total= preciot - descuento;
+    document.write("su total a pagar por: "+ cant + ", unidades es: " + total + "$");
+    
+} else {if (cant>250.99 && cant <= 800) {
+
+    descuento= (8 * preciot) / 100;
+    total= preciot - descuento;
+    document.write("su total a pagar por: "+ cant + ", unidades es: " + total + "$");
+
+} else {if (cant>800.99) {
+    descuento= (12 * preciot) / 100;
+    total= preciot - descuento;
+    document.write("su total a pagar por: "+ cant + ", unidades es: " + total + "$");
+} 
+}
+}
+}
+</script>
+</html>

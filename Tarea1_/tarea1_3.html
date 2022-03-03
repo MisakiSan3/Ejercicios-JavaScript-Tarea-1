@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1- Ejercicio 3</title>
+</head>
+<body>
+    <h1>Tarea 1- Ejercicio 3</h1>
+    
+</body>
+<script>
+    let nmayores=0;
+    let nmenores=0;
+  let  cont=0;
+
+do {cont= cont + 1;
+    edad1=prompt("Ingrese la edad");
+    edad=parseInt(edad1);
+    alert("edad: "+ edad);
+
+    if (edad<18) {
+    nmenores= nmenores + 1 ;
+    } else {
+    nmayores= nmayores + 1 ;
+    
+    }
+    
+} while (cont<20);
+document.write("Hay "+ nmenores + " personas menores de edad" );
+document.write("<br>");
+document.write("Hay "+ nmayores + " personas mayores de edad" );
+
+
+
+
+</script>
+</html>
