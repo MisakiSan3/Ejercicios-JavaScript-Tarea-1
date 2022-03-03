@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><a href="Ejercicio1.html">Ejercicio 1</a></h2>
+    <script>
+        var descuento;
+	// 1. En una tienda de calzado se esta ofreciendo un descuento por 
+	// compra a sus clientes con categorías, dependiendo de su tipo, sólo 
+	// existen tres tipos de categorías, tipo A, tipo B y tipo C. 
+	// Los descuentos son los siguientes:
+	// Tipo A 10% de descuento
+	// Tipo B 15% de descuento
+	// Tipo C 20% de descuento
+	var categoria = new String();
+	var costo = new Number();
+	costo = Number(prompt("Ingrese su valor a pagar"));
+	document.write("Valor a pagar: $",costo,'<BR/>');
+	categoria = prompt("En que categoria se encuentra");
+	document.write("Categoría: ",categoria,'<BR/>');
+	switch (categoria) {
+	case "A":
+		descuento = costo*0.10;
+		break;
+	case "B":
+		descuento = costo*0.15;
+		break;
+	case "C":
+		descuento = costo*0.20;
+		break;
+	}
+	document.write("Descuento :$",descuento,'<BR/>');
+	document.write("Valor a pagar :$",costo-descuento,'<BR/>');
+    </script>
+</body>
+</html>
